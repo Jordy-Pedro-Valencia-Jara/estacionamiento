@@ -1,1 +1,1 @@
-# estacionamiento
+Este proyecto se trata de un sistema que puede mejorar el manejo de espacios de estacionamiento , esto incluye el tiempo , la tarifa y tambien para tener un mejor registro de los autos que ingresan y sus dueños .
