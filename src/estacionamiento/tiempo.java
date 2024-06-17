@@ -38,22 +38,22 @@ public class tiempo {
 	}
 	public void  aumentar() {
 		this.seg++;
-		if(this.seg>59) {
+		if(this.seg>=59) {
 			this.seg=0;
 			this.min++;
 		}
-		if(this.min>59) {
+		if(this.min>=59) {
 			this.min=0;
 			this.hor++;
 		}
 	}
 	public void aumentarcont(int a) {
 		this.seg=a;
-		if(this.seg>59) {
+		if(this.seg>=59) {
 			this.seg=0;
 			this.min++;
 		}
-		if(this.min>59) {
+		if(this.min>=59) {
 			this.min=0;
 			this.hor++;
 		}

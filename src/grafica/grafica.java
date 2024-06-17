@@ -21,7 +21,7 @@ public class grafica extends JFrame{
 
         panel.setBackground(new Color(127, 255, 212));
         panel.setBounds(10, 10, 966, 563);
-        panel.setLayout(null); // Establece el layout a null
+        panel.setLayout(new FlowLayout()); // Establece el layout a null
         getContentPane().add(panel);
 
         panel_1.setBackground(new Color(72, 209, 204));
